@@ -1,8 +1,8 @@
 # Assets Manager OO
-## Requirement
+### Requirement
 - AMXX 1.9.0+
 - [OO Module](https://github.com/hollacs/oo_amxx/tree/no-std).
-
+<br>
  This AMXX plugin helps you get rid of hard-coded asset file paths. <br>
  The sample plugin is located in `scripting/assets_example.sma` and it comes up with a json `configs/assets/example.json`<br>
  <br>
