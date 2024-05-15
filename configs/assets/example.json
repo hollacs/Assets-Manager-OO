@@ -1,0 +1,14 @@
+{
+    "models": {
+        "v_knife" : "models/v_knife_r.mdl"
+    },
+    "sounds": {
+        "knife_hitwall" : ["weapons/hegrenade-1.wav", "weapons/hegrenade-2.wav"]
+    },
+    "generics" : {
+        "knife_spk" : ["sound/hostage/hos1.wav", "sound/hostage/hos2.wav", "sound/hostage/hos3.wav"]
+    },
+    "sprites" : {
+        "shockwave" : "sprites/shockwave.spr"
+    }
+}
