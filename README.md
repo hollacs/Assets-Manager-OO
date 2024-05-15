@@ -1,5 +1,5 @@
 # Assets Manager OO
-### Requirement
+### Requirements
 - AMXX 1.9.0+
 - [OO Module](https://github.com/hollacs/oo_amxx/tree/no-std).
 <br>
