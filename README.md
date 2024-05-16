@@ -182,7 +182,7 @@ That's it, all 4 resource types (model, sound, sprite, generic) are showcased on
 
 <hr>
 
-Seeing the above code you may think, Isn't that every plugin needs to make a json too?
+Seeing the above code you may think, Isn't that every plugin needs to make a json too? 😨
 
 Actually not, you can load the json in a plugin once, and then share the object id with other plugins.
 
