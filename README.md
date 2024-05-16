@@ -160,7 +160,7 @@ JSON file settings:
 ```
 <br>
 
-**Note: Each model or sprite can only match one file.**
+**Note:**
 - Each model or sprite can only match one file.
 - Each sound or generic can match more than one file.
 - LoadJson can only be called in plugin_precache().
