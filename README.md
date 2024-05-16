@@ -8,7 +8,7 @@
 
 <br>
 
-Let's look at an example of how to use it:
+Let's take a look at an example of how to use it:
 ```sourcepawn
 #include <amxmodx>
 #include <fakemeta>
