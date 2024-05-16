@@ -278,7 +278,7 @@ JSON File: (This is just an example)
 
 If you're worried about performance problem, there are a few solutions
 
-For example, at the beginning of `plugin_init()`, use a global variable to get a file and then use it. (only for `model` or `sprite`)
+At the beginning of `plugin_init()`, use a global variable to get a file and then use it. (only for `model` or `sprite`)
 
 Here's an example:
 ```sourcepawn
