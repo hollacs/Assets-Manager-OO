@@ -2,6 +2,12 @@
  I've made an AMXX API that can avoid hard-coding file paths in the plugin (useless stuff). <br>
  It's a bit similar to ZP 5.0's `amx_settings_api.sma`. <br>
  but I made it more user-friendly and only aim for asset files, using json to read file paths. <br>
+
+### Requirements:
+- AMXX 1.9.0+
+- [OO Module](https://github.com/hollacs/oo_amxx/tree/no-std)
+
+### Files
 - `oo_assets.sma` is the core API plugin
 - `oo_assets.inc` is the INC file
 - `assets_example.sma` is an example showcase and it comes up with a `example.json` in `configs/`
