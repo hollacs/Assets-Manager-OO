@@ -184,7 +184,7 @@ That's it, all 4 resource types (model, sound, sprite, generic) are showcased on
 
 Seeing the above code you may think, Isn't that every plugin needs to make a json too? 😨
 
-Actually not, you can load the json in a plugin once, and then share the object id with other plugins.
+Actually not, you can load the json in one plugin, and then share the object id with other plugins.
 
 Here's how to use XVar to share object ids with other plugins
 
