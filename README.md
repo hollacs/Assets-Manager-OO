@@ -174,11 +174,11 @@ JSON file settings:
 <br>
 The result of this example plugin is first to read the asset files from json, and automatically precache them.
 
-Then, when the player uses the knife to hit a wall, it will create a shockwave (sprite) and an explosion (sound), Otherwise, when the player hits nothing, it will play a hostage sound (generic).
+Then, when a player uses the knife to hit a wall, it will create a shockwave (sprite) and an explosion (sound), Otherwise, when he is hitting nothing, it will play a hostage sound (generic).
 
-Finally, the knife model is changed to the CS 1.5 model (model).
+And finally, the knife model will be changed to the CS 1.5 (model).
 
-And that's it, all 4 resource types (model, sound, sprite, generic) are tested once.
+That's it, all 4 resource types (model, sound, sprite, generic) are showcased once.
 
 <hr>
 
