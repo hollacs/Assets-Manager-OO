@@ -174,7 +174,7 @@ JSON file settings:
 <br>
 The result of this example plugin is first to read the asset files from json, and automatically precache them.
 
-Then, when a player uses the knife to hit a wall, it will create a shockwave (sprite) and an explosion (sound), Otherwise, when he is hitting nothing, it will play a hostage sound (generic).
+Then, when a player uses the knife to hit a wall, it will create a shockwave (sprite) and an explosion (sound), Otherwise, when the player hits nothing, it plays a hostage sound (generic).
 
 And finally, the knife model will be changed to the CS 1.5 (model).
 
