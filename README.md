@@ -1,5 +1,5 @@
 # Assets Manager OO
- I've made an AMXX API that can avoid hard-coding file paths in the plugin (useless stuff). <br>
+ I've made an AMXX API that can avoid hard-coding file paths in the plugin (~~useless stuff~~). <br>
  It's a bit similar to ZP 5.0's `amx_settings_api.sma`. <br>
  but I made it more user-friendly and only aim for asset files, using json to read file paths. <br>
 
