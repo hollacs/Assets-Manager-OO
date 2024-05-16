@@ -317,7 +317,7 @@ public OnWorldSpawnTraceAttack_Post(ent, attacker, Float:damage, Float:direction
 
 <br>
 
-About `sound` and `generic`, you can get the Array: handle in advance:
+About `sound` and `generic`, you can get the Array: handle in global:
 ```sourcepawn
 
 
