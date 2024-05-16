@@ -166,17 +166,17 @@ JSON file settings:
 - LoadJson can only be called in plugin_precache().
 
 <br>
-The function of this example plugin is to load JSON first to read the asset file paths and automatically precache them.
+The result of this example plugin is first to read the asset files from json, and automatically precache them.
 
-Then, when the player uses knife to hit the wall, it will create a shockwave (sprite) and an explosion (sound), Otherwise, when player hits nothing, it will play a hostage sound (generic).
+Then, when the player uses the knife to hit a wall, it will create a shockwave (sprite) and an explosion (sound), Otherwise, when the player hits nothing, it will play a hostage sound (generic).
 
-Finally, the knife model is changed to the CS 1.5 model.
+Finally, the knife model is changed to the CS 1.5 model (model).
 
-And that's it, all 4 resource types are tested once.
+And that's it, all 4 resource types (model, sound, sprite, generic) are tested once.
 
 <hr>
 
-Seeing the above code you may think, isn't that becomes every plugin have to make a json too?
+Seeing the above code you may think, Isn't that every plugin needs to make a json too?
 
 Actually not, you can load the json in a plugin once, and then share the object id to other plugins.
 
