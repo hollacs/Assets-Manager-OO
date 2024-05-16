@@ -331,8 +331,6 @@ public plugin_init()
        g_aSlashSound = AssetsGetGeneric(g_oAssets, "knife_spk");
 }
 
-
-
 public OnEmitSound(id, channel, const sample[], Float:volume, Float:attn, flags, pitch)
 {
        ...
