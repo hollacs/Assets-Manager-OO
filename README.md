@@ -190,7 +190,7 @@ Here's how to use XVar to share object ids with other plugins
 
 <br>
 
-Plugins that require json to be loaded look like this:
+Plugin that require json to be loaded look like this:
 ```sourcepawn
 #include <amxmodx>
 #include <oo_assets>
