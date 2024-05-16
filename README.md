@@ -176,7 +176,7 @@ The result of this example plugin is first to read the asset files from json, an
 
 Then, when a player uses the knife to hit a wall, it will create a shockwave (sprite) and an explosion (sound), Otherwise, when the player hits nothing, it plays a hostage sound (generic).
 
-And finally, the knife model will be changed to the CS 1.5 (model).
+Finally, the knife model will be changed to the CS 1.5 (model).
 
 That's it, all 4 resource types (model, sound, sprite, generic) are showcased once.
 
