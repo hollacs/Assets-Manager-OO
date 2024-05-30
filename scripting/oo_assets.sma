@@ -5,7 +5,7 @@
 
 public plugin_init()
 {
-	register_plugin("[OO] Assets", "0.1", "holla");
+	register_plugin("[OO] Assets", "0.2", "holla");
 }
 
 public oo_init()
@@ -255,7 +255,7 @@ public Assets@GetSprite(const key[])
 	if (TrieGetCell(Trie:oo_get(oo_this(), "sprites"), key, index))
 		return index;
 
-	return -1;
+	return 0;
 }
 
 public Array:Assets@GetSound(const key[])
