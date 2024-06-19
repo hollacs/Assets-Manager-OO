@@ -69,14 +69,14 @@ public bool:Assets@LoadJson(const filepath[])
 
 	if (!file_exists(fullpath))
 	{
-		abort("Assets@LoadJson: file (%s) does not exist.", fullpath);
+		abort(AMX_ERR_GENERAL, "Assets@LoadJson: file (%s) does not exist.", fullpath);
 		return false;
 	}
 
 	new JSON:json = json_parse(fullpath, true, true);
 	if (json == Invalid_JSON)
 	{
-		abort("Assets@LoadJson: invalid json (%s).", fullpath);
+		abort(AMX_ERR_GENERAL, "Assets@LoadJson: invalid json (%s).", fullpath);
 		return false;
 	}
 
