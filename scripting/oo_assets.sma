@@ -5,7 +5,7 @@
 
 public plugin_init()
 {
-	register_plugin("[OO] Assets", "0.1", "holla");
+	register_plugin("[OO] Assets", "0.3", "holla");
 }
 
 public oo_init()
