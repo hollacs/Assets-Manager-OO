@@ -110,7 +110,7 @@ public Assets@ParseJson(JSON:json)
 
 	// read sprites
 	i = 0;
-	new JSON:sprites_j = json_object_get_value(json, "sprite");
+	new JSON:sprites_j = json_object_get_value(json, "sprites");
 	new Trie:sprites_t = Trie:oo_get(this, "sprites");
 	while (JsonReadObjectString(sprites_j, i, key, charsmax(key), value, charsmax(value)))
 	{
