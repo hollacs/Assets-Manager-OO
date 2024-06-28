@@ -278,7 +278,7 @@ JSON File: (This is just an example)
 
 <hr>
 
-Considering the performance problem, here are a few solutions:
+If you're worried about the performance problem, here are a few solutions:
 
 At the beginning of `plugin_init()`, use a global variable to get a file and then use it. (only for `model` or `sprite`)
 
